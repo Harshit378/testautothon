@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Smoke Test Suite" parallel="classes" thread-count="2">  
+  <test name="Admin Area Login">
+  <parameter name="browser" value="GRID_CHROME"/>
+    <classes>
+      <class name="com.epam.eventportal.automation.tests.AdminAreaTests"/>   
+    </classes>
+  </test> <!-- Test -->
+   <test name="Admin Area Create Event">
+  <parameter name="browser" value="GRID_FIREFOX"/>
+    <classes>      
+      <class name="com.epam.eventportal.automation.tests.AdminAreaTests"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
